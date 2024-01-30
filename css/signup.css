@@ -1,0 +1,84 @@
+
+body{
+    margin: 2%;
+    background-color: #F6F7FA;
+}
+.container{
+    width: 45%;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+td{
+    text-align: center;
+
+}
+.header-text{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.sub-text{
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+}
+
+.form-label{
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 14px;
+}
+.label-td{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1{
+    font-weight: bold;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}.login-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.select-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+select.input-text {
+    /* Your existing styles for input-text */
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 30px 10px 10px; /* Adjust padding as needed */
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ccc; /* Adding a border for demonstration */
+}
+
+.select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 12px; /* Adjust font size as needed */
+}
+.select-container select.input-text {
+    width: 100%; /* Set the desired width, you can adjust this value */
+}
